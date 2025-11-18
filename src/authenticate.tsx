@@ -131,10 +131,7 @@ export default function Command() {
       }
     >
       {authenticated ? (
-        <Form.Description
-          title="Status"
-          text="✓ You are authenticated."
-        />
+        <Form.Description title="Status" text="✓ You are authenticated." />
       ) : (
         <>
           <Form.Description
